@@ -1,0 +1,27 @@
+.parallax {
+    background-image: url("../img/background.jpg");
+    height: 1000px;
+
+    /* scrolling effect */
+
+    /*background-attachment: scroll|fixed|local|initial|inherit;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider {
+    /* background-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|saturation|color|luminosity;*/
+    background-blend-mode: luminosity;
+    height: 1000px;
+    background-color: red;
+    font-size: 36px;
+}
+
+.slider2{
+    background-blend-mode: luminosity;
+    height: 1000px;
+    background-color: orange;
+    font-size: 36px;
+}
